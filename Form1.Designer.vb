@@ -26,6 +26,7 @@ Partial Class Form1
         Me.Txtcorreos = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TxtMsg = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
@@ -64,8 +65,8 @@ Partial Class Form1
         Me.TxtIma.Name = "TxtIma"
         Me.TxtIma.Size = New System.Drawing.Size(908, 20)
         Me.TxtIma.TabIndex = 4
-        Me.TxtIma.Text = "C:\Users\ecacerest.CMODERNA\Documents\Proyectos\EnviarCorreo\EnviarCorreo\bin\Deb" & _
-    "ug\mensaje.htm"
+        Me.TxtIma.Text = "C:\Users\ecacerest.CMODERNA\Documents\Proyectos\EnviarCorreo\EnviarCorreo\bin\Deb" &
+    "ug\COMUNICADO.pdf"
         '
         'Txtcorreos
         '
@@ -73,8 +74,8 @@ Partial Class Form1
         Me.Txtcorreos.Name = "Txtcorreos"
         Me.Txtcorreos.Size = New System.Drawing.Size(908, 20)
         Me.Txtcorreos.TabIndex = 5
-        Me.Txtcorreos.Text = "C:\Users\ecacerest.CMODERNA\Documents\Proyectos\EnviarCorreo\EnviarCorreo\bin\Deb" & _
-    "ug\correos.txt"
+        Me.Txtcorreos.Text = "C:\Users\ecacerest\Documents\Proyectos\EnviarCorreo2\EnviarCorreo\bin\Debug\corre" &
+    "os.txt"
         '
         'Label3
         '
@@ -92,14 +93,24 @@ Partial Class Form1
         Me.TxtMsg.Name = "TxtMsg"
         Me.TxtMsg.Size = New System.Drawing.Size(908, 20)
         Me.TxtMsg.TabIndex = 7
-        Me.TxtMsg.Text = "C:\Users\ecacerest.CMODERNA\Documents\Proyectos\EnviarCorreo\EnviarCorreo\bin\Deb" & _
-    "ug\image002.jpg"
+        Me.TxtMsg.Text = "C:\Users\ecacerest\Documents\Proyectos\EnviarCorreo2\EnviarCorreo\bin\Debug\mensa" &
+    "je.htm"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(361, 137)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(39, 13)
+        Me.Label4.TabIndex = 8
+        Me.Label4.Text = "Label4"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(942, 175)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.TxtMsg)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Txtcorreos)
@@ -120,5 +131,5 @@ Partial Class Form1
     Friend WithEvents Txtcorreos As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents TxtMsg As System.Windows.Forms.TextBox
-
+    Friend WithEvents Label4 As Label
 End Class
