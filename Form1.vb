@@ -27,7 +27,7 @@ Public Class Form1
     End Sub
     Sub correo(ByVal para As String)
         Dim _Message As New System.Net.Mail.MailMessage()
-        Dim _SMTP As New System.Net.Mail.SmtpClient("smtp01.cmoderna.com", 25)
+        Dim _SMTP As New System.Net.Mail.SmtpClient("smtp01.cmoderna.com", 26)
         _SMTP.Credentials = New System.Net.NetworkCredential("ecacerest", "c4c3r1t0s", "cmoderna")
         Dim adjunto As System.Net.Mail.Attachment
         'Dim adjunto2 As System.Net.Mail.Attachment
